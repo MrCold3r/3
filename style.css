@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+}
+
+.container{
+    min-height: 100vh;
+    padding-top: 50px;
+    margin-left: 20px;
+}
+
+.container h3{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.btnhide{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: transparent;
+    color: blue;
+    border: none;
+}
+.btnshow{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: transparent;
+    color: blue;
+    border: none;
+    display: none;
+}
+
+.circle{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #d8046ea8;
+    position: absolute;
+    z-index: 13;
+    pointer-events: none;
+}
